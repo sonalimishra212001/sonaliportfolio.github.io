@@ -18,7 +18,7 @@ $txt = "NAME"= .$name//ITIS ABOVE L.H.S NAME
 
 //IF MAIL IS NUL
 
-$headers="from :noreply@yoursite.com". "\r\n"
+$headers="from :noreply@yoursite.com". "\r\n";
 if ($email!=NULL) {
 	mail($to,$subject,$txt,$headers);
 }
