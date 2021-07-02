@@ -1,0 +1,511 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{margin:0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}	
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+
+p{
+
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  text-transform: capitalize;
+
+  color:#606060;
+}
+h2{
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin: 20px 0px 15px 0px;
+	line-height: 1.1;
+	word-spacing: 2px;
+	text-transform: uppercase;
+
+}
+i{
+	color: #2fccd0;/*sky blue color*/
+}
+/*actual css starts*/
+.header{
+
+	width: 100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,154,255,0.3)),url('../images/1.jpg');
+
+	background-repeat: no-repeat;
+	background-size: 100%  100%;
+	clip-path: polygon(100%  0% ,100% 77%,  50%  100%,0%  75%,0 00
+		);
+	position: relative;
+
+}	
+
+.header:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left:0;
+	right: 0;
+	opacity: 0.3;
+	z-index: -1;
+
+	background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6  100%);
+}
+
+
+.navbar:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left:0;
+	right: 0;
+	opacity: 0.3;
+	z-index: -1;
+
+	background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6  100%);
+
+}	
+.nav-item a{
+
+	color:#fff!important;
+	font-weight: bold;
+}
+
+.header-section{
+	width: 100%;
+	height:inherit;
+	color:white;
+	text-align: center;
+	position: relative; 
+
+}
+
+
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);	
+}
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px  25px;
+	outline: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+
+	line-height: 1.4;
+
+	text-align: center;
+}
+.header-buttons a:hover{
+	color: #50d1c0;
+	background:
+	#fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px  0 rgba(0,0,0,0.3);
+
+
+}
+.center-div p{
+
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+	
+}
+/*extra div header*/
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 90px 0;
+	text-align: center;
+}
+.extra-div{
+background-color: #fff;
+border:medium none
+;
+padding: 50px;
+border-radius: 3px;
+transition: .3s;
+}
+.extra-div:hover{
+	box-shadow:  0 0 20px  0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+/*extra div header end here*/
+
+ /*three extraa  header--div  startts*/
+
+ /*offer secion starts*/
+ .serviceoffers{
+ 	background:lightgrey;
+ 	padding: 50px 0;
+ 	margin-bottom: 50px;
+ }
+ .headings h1{
+ 	font-size: 1.5rem;
+ 	font-weight: 600;
+ 	text-transform: uppercase;
+ }
+ .headings{
+ 	margin-bottom: 10px;
+
+ }
+ .names{
+ 	color: #2e2e2e;
+ 	font-size: 0.9rem;
+ 	text-transform: capitalize;
+ }
+ .service-icon{/*it takes icons at center of font*/
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .progress{
+ 	height: 1rem !important;
+ 	margin-bottom: 45px !important;
+ }
+/*javascript work starts*/
+.project-work{
+	margin: 40px 0;
+}
+
+/*javascript work starts*/
+
+/*<!--our pricing------>*/
+.pricing{
+	width: 100%;
+  /*use this when two cards overlap*/
+	padding: 50px;
+	position: relative;
+    /*use this when two cards overlap*/
+/*use this when two cards overlap*/
+
+
+	/*because of backhground;*/
+}
+.pricing:before{/*this is same as navbar before it is used as a card background*/
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left:0;
+	right: 0;
+/*	opacity: 0.3;*/  /*because needed dak blue color*/
+	z-index: -1;
+
+	background: linear-gradient(160deg,#16c9f6  55%,#fff 0);
+
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.3s ease;
+	margin: 25px 0;
+
+
+
+
+}
+.card:hover{
+	box-shadow:  0 0 20px  0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background:#fff;
+	padding: 15px !important;
+}
+.card-body{
+	padding: 25px 0px !important;
+}
+.card-body li{
+	margin:25px 0;
+	font-weight: 200;
+	font-size: 0.9rem;
+	line-height: 1px;
+	color: #606060;
+}
+.card-footer{
+	background: #fff !important;
+	padding: 30px 0px !important;
+}
+/*same as header button code*/
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px  35px;
+	outline: none;
+	color:#50d1c0;
+	font-size: 0.7rem;
+	font-weight: 400;
+
+	line-height: 1.4;
+
+	text-align: center;
+}
+
+.card:hover .card-footer a{ /*when card up auto cor buttons so we use again card hover*./
+
+	/*dark blue color*/
+ 	
+	text-decoration: none;
+	box-shadow: 0 0 20px  0 rgba(0,0,0,0.5);
+	color: #fff;
+	background:#16c9f6 ;
+
+
+}
+/*because i want when card hover the color of header and footer also changesso*/
+
+.card:hover .card-header,.card:hover .money{
+	color: #16c9f6 ;
+}
+.card-second{/*it amke center card to look aboe*/
+
+	transform: translateY(-20px);
+}
+.happyclient{
+	width: 100%;
+	height: auto;/*vh make 100%lok it remove overlapping*/
+	padding: 40px 0;
+
+	
+
+
+}
+.box{
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.2s ease;
+
+}
+.box:hover p{
+    color:#16c9f6 ;
+}
+.carousel-indicators{/*to make butons down*/
+	position: absolute;
+	right: 0;
+	bottom:-70px !important;
+}
+.carousel-indicators li{
+	background-color: #16c9f6 !important;
+}
+.box a{/*to make image round*/
+	position: relative;
+}
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.box a:after{
+	content: "\f10d";
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+   background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6  100%);
+   color: white;
+   /*to bring icon on corner*/
+   position: absolute;
+   top: 120%;
+   left: 70%;
+   border-radius: 50%;
+   /*it makes the icon display onhe center of background*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box h1{
+	font-size: 13px;
+	font-weight: 700;
+	color: #000;/*black*/
+    margin-bottom: 10px;	
+}
+.box h2{
+	font-size:13px;
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+/*<!--our pricing------>*/
+
+
+/**********contact us*************/
+.contactus{
+	width: 100%;
+	height: 100vh;
+
+	padding: 150px 0;
+	position: relative;
+
+
+}
+.contactus:before{/*to makebbackground*/
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	background: linear-gradient(330deg, #16c9f6 55% ,#fff 0%);
+	z-index: -1;
+/*beaus contact us text behind ho gya tha*/
+}
+
+.form-button button{
+		border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px  35px;
+	outline: none;
+	color:#50d1c0;
+	font-size: 0.7rem;
+	font-weight: 400;
+
+	line-height: 1.4;
+
+	text-align: center;
+	background: transparent;/*it hide the buton*/
+
+}
+.form-button button:hover{
+		color: #50d1c0;
+}
+form:hover .form-button button{
+	background: #fff;
+	color: #50d1c0;
+	box-shadow: 0 0  20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+	font-size: 0.85rem;
+}
+
+/**********contact us end*************/
+
+/*end part of nwesletter*/
+.newsletter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
+}
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;/*it chnge left side of box imto curve*/
+	min-width: 150px;
+	min-height: 45px;
+}
+.input-group-text{
+	color: #fff !important;
+	background: #5bc0de !important;
+	border-radius: 0px 100px 100px 0px!important;/*top ryt bottom left it chagr right side
+	radius*/
+
+}
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+	position: relative;
+}
+.footersection p{
+	color: #fff;
+
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;		
+	text-transform: capitalize;
+	
+
+}
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4)
+}
+#myBtn{
+	display: none;/*it siaplay none when user scrooll more than 20px*/
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border-radius: none;
+	color: #fff;
+	background:#00abff; 
+	padding: 15px;
+	border-radius: 50%;
+}
+#myBtn:hover{
+	background: #606060;
+}
+.text{
+	font-size: 0.9rem;
+	line-height: 1.6;
+}
+.jstext{
+	font-size: 1.4rem;
+	line-height: 1.6;
+
+}
+
+/*end part of nwesletter end*/
+/***meia queries***/
+@media(max-width: 768px;){
+	.nav-item{
+		text-align: center!important;
+	}
+	.pricing ,.happyclient{
+		height: auto;
+		margin-top: 50px;
+	}
+	.contactus{
+		height: auto;
+		margin-top: 200px;
+	}
+
+	.card-second{/*it amke center card to look aboe*/
+
+	transform: translateY(0px);/*to look simple on smal device*/
+   }
+.footerdiv:nth-child(2){
+	text-align: left;
+}
+
+}

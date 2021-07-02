@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+  <!--animation link start-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--animation-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    	
+</head>	
+<body>
+<div class="header"	id="topheader">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top "><!--navbar-dark is used to create i-->
+  <!--WEBSITE NAME-->
+		<div class="container	text-uppercase	p-2		">
+			
+		
+        <a class="navbar-brand  font-weight-bold text-white" href="#">SONALI MISHRA</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon "></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <!--LIKS -->     
+        <ul class="navbar-nav ml-auto text-uppercase"><!--ml ake all link to left side-->
+
+            <li class="nav-item active">
+               <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#servicediv">SERVICE</a></li><!--#id move u on the same page-->
+            </li>
+      		  <li class="nav-item">
+                <a class="nav-link" href="#pricingdiv">DEALING</a>
+            </li>  <li class="nav-item">
+                <a class="nav-link" href="#newsletterid">ABOUT</a>
+            </li>  <li class="nav-item">
+                <a class="nav-link" href="#contactid">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviwes">REVIEWS</a>
+            </li>
+        </ul>
+     </div>
+  </div>	
+
+</nav>
+   <section class="header-section">
+   	<div class="center-div">
+   		<h1 class="font-weight-bold" data-aos="zoom-in" >WEB DEVELOPER</h1>
+   		<p data-aos="zoom-out">boost your online presece <br>website that show of your personality</p>
+   		<div class="header-buttons">
+   			<a href="#newsletterid" >ABOUTME</a>
+   			<a href="#contactid" >CONTACT</a>
+   		</div>
+   </section>	
+</div>
+	<!--header  part end-->
+
+
+<!--AFTER HEADER CARDS startts--->
+  <section class="header-extradiv">
+    <div class="container">
+      <div class="row">
+         <div class="extra-div col-lg-4 col-md-4 col-12">
+           <a href="#"><i class="fa-3x fa fa-eye " aria-hidden="true"></i></a>
+           <h2>Attract Attention
+           </h2>
+           <p>Stand out from your competitors. Get your business noticed by potential customers – it starts here!</p>
+         </div>
+
+           <div class="extra-div col-lg-4 col-md-4 col-12" >
+           <a href="#"><i class="fa-3x fa fa-trophy" aria-hidden="true"></i></a>
+           <h2>Generate Interest</h2>
+           <p>You have to sell your customer your story, before you sell them a product. Create inspiration</p>
+         </div>
+
+           <div class="extra-div col-lg-4 col-md-4 col-12" >
+           <a href="#"><i class="fa-3x fa fa-magic" aria-hidden="true"></i></a>
+           <h2>Boost Sales</h2>
+           <p>Create a compelling strategy that transforms potential customers, into repeat customers. Get in touch! </p>
+         </div>
+      </div>
+    </div>
+    
+  </section>
+<!--AFTER HEADER CARDS END--->   
+
+
+<!--SERVICES secion starts-->
+  <section class="serviceoffers" id="servicediv">
+  <!--HEADING SERVICES WITH PROGRESS BAR START-->
+     <div class="container headings text-center">
+      <h1 class="font-weight-bold ">SERVICES</h1>
+      <p>
+       Check out what we can do</p>
+     </div>
+     <div class="container">
+      <div class="row">  
+        <div class="col-lg-6 col-md-10 col-10 offset-1 offset-lg-0">
+         
+           <div class="progress my-3" ><!--it is amimation name-->
+             <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:100%">100%
+             </div>
+           </div>
+
+           <div class="progress my-3">
+             <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:80%">80%
+             </div>
+           </div>
+
+           <div class="progress my-3">
+             <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:60%">60%
+             </div>
+           </div>
+
+           <div class="progress my-3">
+             <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:50%">50%
+             </div>
+           </div>
+         
+        </div>
+        <!--progress ofer left  sde-->
+
+
+        <!--offer riht side code that divide itin two parts again-->
+
+        
+        <div class="col-lg-6 col-md-12 col-12 servicediv">
+          <!--first box offers-->
+          <div class="row"><!--left side icons of right side-->
+            <div class="col-lg-2 col-md-2 service-icon "> 
+              <i class="fa-3x fa fa-desktop" aria-hidden="true">
+                
+              </i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-10"><!--right side txt of right side-->
+              <h2 class="names">Website Design & Development</h2>
+              <p>We can design and develop a responsive website for your business.</p>
+              
+            </div>
+          </div>
+          <!--first box offers end-->
+
+          <!--second box offers-->
+          <div class="row"><!--left side icons of right side-->
+            <div class="col-lg-2 col-md-2 service-icon "> 
+              <i class="fa-3x fa  fa-file-picture-o" aria-hidden="true">
+                
+              </i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-10" ><!--right side txt of right side-->
+              <h2 class="names">Graphic Design</h2>
+              <p>Whether you are after a completely new logo, or just a face-lift, if you are after new business cards, or social media</p>
+              
+            </div>
+          </div>
+          <!--second box offers end-->
+
+          <!--third box offers-->
+          <div class="row"><!--left side icons of right side-->
+            <div class="col-lg-2 col-md-2 service-icon "> 
+              <i class="fa-3x fa fa-edit" aria-hidden="true">
+                
+              </i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-10" ><!--right side txt of right side-->
+              <h2 class="names">Content Creation</h2>
+              <p>Our team can go the extra mile and provide advice on how to present the content on your website, blog, or advert.</p>
+              
+            </div>
+          </div>
+          <!--third box offers end-->
+         </div>
+        </div>
+     <!--offer right side code that divide itin two parts again end-->
+
+      </div>
+       
+     </div>
+   </section>
+<!--SERVICES secion END-->
+
+
+<!--***************javascript work starts**************-->
+    <section class="project-work" >
+     <div class="container headings text-center">
+      <p class="font-weight-bold ">Boost Sales</p>
+     
+     </div>
+
+     <!--project number -->
+     <div class="container d-flex justify-content-around align-items-center text-center">
+        <div><!-- d-flex justify-content-around align-items-center (brins center auto--)-->
+         <h1 class="count ">500</h1><!--count class added for jquery-->
+         <p class="text">Attention</p>
+        </div>
+        <div>
+         <h1 class="count ">200</h1>
+         <p class="text">Interest</p>
+        </div>
+        <div>
+         <h1 class="count ">100</h1>
+         <p class="text">Engagement</p>
+        </div>
+        <div>
+         <h1 class="count ">400</h1>
+         <p  class="text">Boost Sales </p>
+        </div>
+
+     </div>
+    </section>  
+<!--***************javascript work ENDS**************-->
+
+
+
+
+<!--our pricing DEALINS------>
+<section class="pricing" id="pricingdiv" >
+     <div class="container headings text-center">
+      <h2 class="font-weight-bold ">our dealings</h2>
+     
+   </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4 col-md-4 col-12">
+           <div class="card text-center">
+                <div class="card-header"> Concept</div>
+                <div class="card-body">
+                 <li>We <span class="money">Work</span> with you to</li>
+                 <li>develop and enhance</li>
+                 <li>your concept,</li>
+                 <li>ensuring it is</li>
+                 <li>optimised for the</li>
+                 <li>online world.</li>
+                </div>
+                <div class="card-footer">
+                 <a href="#">call now</a>
+                </div>
+           </div>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 card-second">
+           <div class="card text-center">
+               <div class="card-header">Design</div>
+                <div class="card-body">
+                 <li>Our <span class="money">Graphic</span></li>
+                 <li>design team work with </li>
+                 <li>you to curate a </li>
+                 <li> vision and then help it</li>
+                 <li>come to life whilst</li>
+                 <li> keeping on brand.</li>
+                </div>
+                <div class="card-footer">
+                 <a href="#">call now</a>
+                </div>
+           </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-12">
+           <div class="card text-center ">
+               <div class="card-header">Development</div>
+                <div class="card-body">
+                 <li>we bring<span class="money">vision</span></li>
+                 <li>to life by connecting </li>
+                
+                 <li> the cables on your</li>
+                 <li>website, content, SEO,</li>
+                  <li>graphics, structure..</li>
+                  <li>you name it!</li>
+                </div>
+                <div class="card-footer">
+                 <a href="#">call now</a>
+                </div>
+           </div>
+        </div>
+
+
+      </div>
+    </div>
+</section>
+<!--our pricing DEAING  ends------>
+
+
+
+<!--our happy clients REVIEWS-->
+<section class="happyclient"  id="reviwes">
+     <div class="container headings text-center">
+      <h2 class="font-weight-bold ">REVIEWS</h2>
+      <p class="pt-1">our clents said</p>
+     </div>
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+ <!-- Indicators -->
+     <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+       <li data-target="#demo" data-slide-to="2"></li>
+     </ul>
+
+  <!-- The slideshow -->
+
+ <!--first slde of three-->
+  <div class="carousel-inner container">
+   <!--first slde of three-->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box"><!--this is box class we style-->
+           <a href="#"><img src="images/1.jpg" class="img-fluid img-thumbnail"></a>
+           <p> Our website is much more<br> easy to use,<br> has tons of more features<br> than before and is<br> incredibly easy to maintain</p>
+           <h1>David McDurham
+            </h1>
+           <h2>-  Minister of Communications</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/2.jpg" class="img-fluid img-thumbnail"></a>
+           <p> I personally want to<br> thank you <br>and your staff<br> for their patience <br>and diligence</p>
+           <h1>Stan Wilkes</h1>
+           <h2>Arlington Trolley</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/3.jpg" class="img-fluid img-thumbnail"></a>
+           <p>The traffic to our website has increased thanks to<br> their SEO program.<br>
+           They are great <br>to work with</p>
+           <h1>Bruce Maston</h1>
+           <h2>-  VP Quality Assurance</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  <!--second slde of three-->
+    <div class="carousel-item container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/4.jpg" class="img-fluid img-thumbnail"></a>
+           <p>We have been very<br> happy with our<br> new website! It looks <br
+            >professional and very easy to navigate.</p>
+           <h1>Melissa Montiel</h1>
+           <h2>Sterling Protective Services, Inc</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/5.jpg" class="img-fluid img-thumbnail"></a>
+           <p>We re-did our<br> website twice in a 6<br> month period.There was no comparison<br> .Excellent Communication…</p>
+           <h1>David Hadden</h1>
+           <h2>-  President</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/6.jpg" class="img-fluid img-thumbnail"></a>
+           <p>The attention to detail <br
+            >with  professional staff is<br>incredible.The entire team<br> has proven to be<br> very innovative</p>
+           <h1>Tony Farah</h1>
+           <h2>-  President</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--third slde of three-->
+    <div class="carousel-item container">
+     <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/7.jpg" class="img-fluid img-thumbnail"></a>
+           <p>Thrive is a great company<br> to work with, <br
+            >I use them fo<br
+            >r a lot more than<br> just building a website</p>
+           <h1>Craig Pate</h1>
+           <h2>-  President</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/8.jpg" class="img-fluid img-thumbnail"></a>
+           <p>We at Kee Service <br
+            >were very <br>impressed with<br> the all aspects <br
+            >of our new website. </p>
+           <h1>Ross Asher</h1>
+           <h2>-  Owner</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+           <a href="#"><img src="images/9.jpg" class="img-fluid img-thumbnail"></a>
+           <p>We were very<br> pleased with<br>them the overall<br> development process <br>for our website. </p>
+           <h1>John Coakley</h1>
+           <h2>CCM Construction</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+  </div>
+</section>
+
+<!--our happy clients ends REVIWES-->
+    
+
+<!--this is ********contact us********** form-->
+<section class="contactus" id="contactid">
+ <div class="container headings text-center">
+  <h1 class="font-weight-bold mt-5">CONTACT US</h1>
+  <p class="">We would love to hear from you – fill out our form and we will get right back to you.</p>
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-8 col-md-8 col-10 offset-lg-2  offset-md-2 offset-1"><!--because we put 8 in lg we have 4 reainig due to this we use offset-2 means to from bothryt lft-->
+      <!--********************makes form cente*********************-->
+        <form action="/action_page.php" data-aos="zoom-in-left"> 
+
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter your name" id="username" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Enter email" id="email" required autocomplete="off">
+            </div>
+
+            <div class="form-group">                
+                <input type="number" class="form-control" placeholder="Enter mobile" id="mobile" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+               <textarea class="form-control" rows="4" id="comment" placeholder="say something"></textarea>
+            </div>
+            
+           <div class="d-flex justify-content-center align-items-center form-button">
+            <button type="submit" class="btn btn-primary">Submit</button>
+           </div>
+        </form>
+     </div>
+   </div>
+ </div>
+</section>
+<!--this is ********contact us********** form-->
+
+<section class="newsletter" id="newsletterid">
+ <div class="container headings text-center">
+  <h1 class="font-weight-bold mt-5">CONTACT US</h1>
+ 
+ </div>
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-12">
+       <div class="input-group mb-3">
+        <input type="text" class="form-control news-input" placeholder="Your Email">
+        <div class="input-group-append">
+           <span class="input-group-text">subscribe</span>
+         </div>
+       </div>
+    </div>
+  </div>
+  
+</div>
+</section>
+
+
+
+
+<!--footer-->
+<footer class="footersection" id="footerdiv">
+   <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 footerdiv">
+           <div>
+             <h3>about us</h3>
+             <p>Our graphic design team work with you to curate a vision and then help it come to life whilst keeping on brand.Now we bring your vision to life by connecting the cables on your website, content, SEO, graphics, structure.. you name it!</p>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 footerdiv "  data-aos="zoom-in">
+           <div>
+             <h3>navigation</h3>
+             <li><a href="#index.html">HOME</a></li>
+             <li><a href="#servicediv">SERVICE</a></li>
+             <li><a href="#pricingdiv">DEALING</a></li>
+             <li><a href="#newsletterid">ABOUT</a></li>
+             <li><a href="#contactid">CONTACTUS</a></li>
+             <li><a href="##reviwes">REVIEWS</a></li>
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 footerdiv"  >
+           <div>
+             <h3><i class="fa fa-phone fa-2x " style="color: #fff;"></i>&nbsp;&nbsp;call now</h3>
+             <p>Our team can go the extra mile and provide advice on how to present the content on your website, blog, or advert.</p>
+             <div class="container">
+                <div class="row">
+                  <div class="col-lg-12  col-12">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control news-input" placeholder="Your Email">
+                      <div class="input-group-append">
+                      <span class="input-group-text">subscribe</span>
+                    </div>
+                  </div>
+                </div>
+             </div>
+      
+         </div>
+           </div>
+        </div>
+      </div>
+      <div class="mt-5 text-center footerdiv"><h3>coptright of our company is its our private policies</h3></div>
+      <div class="scrollTop float-right">
+       <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+      </div>
+   </div>
+</footer>
+<!--footer end-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!--jqery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--search waypoint jqery cdn on goole-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!--seach counterup cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!--jqery end-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--animation link start-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--animation end-->
+
+
+ <!--animation link start plugin-->
+  <script>
+    AOS.init({
+       offset: 150,//sonali change it from 120  // offset (in px) from the original trigger point
+       duration: 900,//sonali chnge it from 400 // values from 0 to 3000, with step 50ms
+     }
+      );
+  </script>
+  <!--animation link end plugin-->
+
+<!--counter up plugin we use our count class-->
+  <script>
+     $('.count').counterUp({
+    delay: 10,
+    time: 2000
+     });
+   </script>
+<!--counter up plugin we use our count class-->
+
+<!--our javascript-->
+    <script type="text/javascript">
+
+      //get  the button
+      mybutton=document.getElementById("myBtn");
+      //when ouser scroll more that 20px it automatically visible
+      window.onscroll=function() {scrollFunction()};//window is by default available to u
+      //window contain on scroll also
+
+      //defining scrool functio n 
+      function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)//if
+       //top is more than 20
+       //first is for sfari browser || second is for chrome ,firefox; 
+       {
+        mybutton.style.display="block";
+
+       }
+       else{
+        mybutton.style.display="none";
+
+      }
+       }
+       function topFunction() {
+        document.body.scrollTop=0;     //is for sfari browser
+        document.documentElement.scrollTop=0;//is for chrome ,firefox; 
+       }
+    </script>	
+</body>
+</html>														
